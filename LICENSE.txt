@@ -1,0 +1,28 @@
+The Dutchman Clipper — Freeware Licence 1.0
+Copyright (c) 2026 The Dutchman. All rights reserved.
+
+The rights holder grants you permission to install and use the unmodified
+The Dutchman Clipper binaries, free of charge, for personal or commercial
+audio production. Audio you create or process remains yours; no attribution
+or royalty is required for such audio.
+
+You may redistribute the complete, unmodified official distribution free
+of charge, provided this licence and all third-party notices remain intact.
+You may not sell or relicense the software, remove its notices, or distribute
+modified versions without separate permission from the rights holder,
+except where applicable law or a third-party licence expressly permits it.
+No licence to the product source code or trademarks is granted.
+
+Third-party components remain subject to their respective licences, which
+prevail for those components. This licence does not restrict rights granted
+by those licences or rights that applicable law does not allow to be waived.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTIES OF ANY KIND, TO THE
+EXTENT PERMITTED BY APPLICABLE LAW. THE RIGHTS HOLDER IS NOT LIABLE FOR
+LOSS OR DAMAGE ARISING FROM ITS USE TO THE EXTENT PERMITTED BY LAW.
+
+日本語要旨（上記英語本文が利用条件です）：個人・商用の音楽制作に無償で
+使用できます。制作音源へのクレジットやロイヤリティは不要です。公式配布物を
+改変せず、利用条件と第三者表記を保持した無償再配布を認めます。製品の販売、
+再ライセンス、改変版の配布には別途許可が必要です。ただし、法令または第三者
+ライセンスで認められる権利を制限しません。ソースコードは非公開です。
