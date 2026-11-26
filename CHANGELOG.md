@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.1
+
+- VST3／AU／StandaloneをUniversal（arm64＋x86_64）へ統合。
+- Apple Silicon版とIntel版を選ばず、同じバンドルをインストールできる配布形式へ変更。
+- バージョン表記を1.0.1へ更新。DSPとパラメータの仕様は1.0.0から変更なし。
+- arm64ネイティブ／Rosetta x86_64で検証。Intel実機での動作・CPU負荷は未確認。
+
 ## 1.0.0
 
 - ステレオリンク100%のLimiter／Maximizer。Drive 0〜+18 dB、Ceiling、Release、Lookahead。

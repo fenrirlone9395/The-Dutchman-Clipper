@@ -1,1 +1,1 @@
-f55926d0d71f84e4202d3cffd2bcf5fa7f13bb525a90b3c680cf3e670e04acaf  TheDutchmanClipper-v1.0.0-macOS-arm64.zip
+cd579eabd3f676a1fbfffcb8abddfaa411d673029300ab90d35738f65c27d63a  TheDutchmanClipper-v1.0.1-macOS-universal.zip

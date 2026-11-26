@@ -1,6 +1,6 @@
 # The Dutchman Clipper
 
-**Loudness MAXimizer / Limiter — v1.0.0**
+**Loudness MAXimizer / Limiter — v1.0.1**
 
 ステレオのマスター最終段に使うLimiter／Maximizer。Driveで処理量を調整し、Ceilingで出力上限を管理します。
 
@@ -8,7 +8,7 @@
 
 ## ダウンロード
 
-[Releases](https://github.com/fenrirlone9395/The-Dutchman-Clipper/releases)から配布ZIPを取得してください。macOS 14以降、Apple Silicon向けのVST3／AU／Standaloneを同梱しています。Intel Mac・Windowsは対象外です。
+[Releases](https://github.com/fenrirlone9395/The-Dutchman-Clipper/releases)から配布ZIPを取得してください。macOS 14以降、Apple SiliconとIntel Macに対応するUniversal版（arm64＋x86_64）のVST3／AU／Standaloneを同梱しています。Windowsは対象外です。CPU別の選択や二重インストールは不要です。
 
 ## インストール
 
@@ -45,9 +45,9 @@ TP保護には**0.15 dBの安全余裕**があります。Ceiling −1 dBTPで�
 
 ## 検証と制限
 
-macOS Sonoma／Apple Siliconで3形式をビルド。VST3／AUの実バンドル処理、Standalone起動、pluginvalレベル10、ホイール操作、状態復元の回帰試験を確認しています。独立計器libebur128によるTP試験は44.1／48／96 kHz・4倍率・float32／float64で実施し、最終出力がCeiling +0.1 dB以内を合格条件としました。LUFSも独立計器と比較しています。
+macOS Sonoma／Apple Siliconで3形式のUniversalバンドルをビルド。arm64ネイティブとRosetta x86_64の両方で回帰試験を実施しています。両CPU側でVST3のpluginvalレベル10、AUの実バンドル処理、Standalone起動を確認しています。ホイール操作、状態復元の回帰試験を確認しています。独立計器libebur128によるTP試験は44.1／48／96 kHz・4倍率・float32／float64で実施し、最終出力がCeiling +0.1 dB以内を合格条件としました。LUFSも独立計器と比較しています。
 
-5分相当の連続処理はオフライン試験です。全DAWでの遅延補償、AUのシステムスキャンとauval、Steinberg標準Validator、実デバイス入出力での長時間稼働は網羅していません。
+5分相当の連続処理はオフライン試験です。Intel実機上の音声入出力・CPU負荷、全DAWでの遅延補償、AUのシステムスキャンとauval、Steinberg標準Validator、実デバイス入出力での長時間稼働は網羅していません。
 
 ## ライセンス
 
